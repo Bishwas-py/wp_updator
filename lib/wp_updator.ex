@@ -25,7 +25,7 @@ defmodule WpUpdator do
 
   defp valid_service_area_link?(page) do
     link = page["link"]
-    match = String.starts_with?(link, "#{@site_url}/service-area/")
+    match = String.starts_with?(link, "#{@site_url}/service-area")
     match
   end
 
