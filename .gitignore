@@ -24,3 +24,5 @@ wp_updator-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+.command
